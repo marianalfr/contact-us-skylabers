@@ -225,6 +225,11 @@ sup {
   */ul,ol {
   margin: 0;
   padding: 0;
+}/**
+ * Box-sizing everything to border-box.
+ */* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=normalize.css.map */

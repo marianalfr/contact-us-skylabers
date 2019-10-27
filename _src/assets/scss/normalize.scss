@@ -365,3 +365,11 @@
     margin: 0;
     padding: 0;
   }
+  
+  /**
+ * Box-sizing everything to border-box.
+ */
+ 
+ *{
+  box-sizing: border-box;
+}
