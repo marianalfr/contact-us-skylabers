@@ -1,5 +1,13 @@
 <section id="form" class="wrapper-form">
-
-
-    
+    <form action="/signup" method="post">
+        <label class="label" for="nombreCompleto">Nombre completo</label>
+        <input class="nombreCompleto"type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Nombre..." required="required"/>
+        <label class="label" for="emailAdress">Email</label>
+        <input class="email" type="email" id="emailAdress" name="email" placeholder="nombre.apellidos@mail.com"required="required"/>
+        <label class="label" for="telefono">Teléfono</label>
+        <input class="tel"type="tel" id="telefono" name="telefono" placeholder="Ej:123456789"/>
+        <label class="label"  for="mensaje">Mensaje</label>
+        <textarea class="mensaje"id="mensaje" name="mensaje" rows="8" cols="10" required="required"></textarea>
+      <input class="button"type="submit" value="Enviar"/>
+  </form>
 </section>
