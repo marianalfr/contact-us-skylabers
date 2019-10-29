@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRubik:300,400&display=swap");
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:300,400&display=swap");/* MEDIA QUERIES *//* DEVICE WIDTH - media queries breakpoints *//* FONTS *//* COLORS */.header-container {
   opacity: 0.8;
 }
@@ -79,6 +81,88 @@
 
 .footer .footer__logo-container .footer__logo {
   width: 116px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 5px solid #fabada;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.label {
+  display: block;
+  color: #54585a;
+}
+
+.email {
+  color: #54585a;
+  font-size: 16px;
+  height: 45px;
+  width: 290px;
+  border: inside 1px;
+}
+
+.nombreCompleto,.tel {
+  height: 45px;
+  width: 290px;
+  border: inside 1px;
+}
+
+.mensaje {
+  width: 290px;
+  border: inside 1px;
+}
+
+::-webkit-input-placeholder {
+  color: #b8b8b9;
+  padding-left: 15px;
+}
+
+:-ms-input-placeholder {
+  color: #b8b8b9;
+  padding-left: 15px;
+}
+
+::-ms-input-placeholder {
+  color: #b8b8b9;
+  padding-left: 15px;
+}
+
+::placeholder {
+  color: #b8b8b9;
+  padding-left: 15px;
+}
+
+.required {
+  content: "*";
+  color: #14d9c4;
+}
+
+.button {
+  background-color: #099d8d;
+  height: 45px;
+  width: 290px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  display: block;
 }
 
 .hero {

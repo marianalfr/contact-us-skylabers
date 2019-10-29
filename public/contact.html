@@ -34,7 +34,28 @@
                 </nav>
             </header>
             <main>
-                <section></section>
+                <section id="form" class="wrapper-form">
+                    <form action="/signup" method="post">
+                        <label class="label" for="completename">Nombre completo</label> <span class="asterisk">*</span>
+
+                        <input class="completename"
+                        type="text" id="completename" name="completename" placeholder="Nombre..."
+                        required="required" />
+                        <label class="label" for="emailAdress">Email</label> <span class="asterisk">*</span>
+
+                        <input class="email" type="email"
+                        id="emailAdress" name="email" placeholder="nombre.apellidos@mail.com" required="required"
+                        />
+                        <label class="label" for="phone">Teléfono</label>
+                        <input class="tel" type="tel" id="phone" name="phone"
+                        placeholder="Ej:123456789" />
+                        <label class="label" for="message">Mensaje</label> <span class="asterisk">*</span>
+
+                        <textarea class="message"
+                        id="message" name="message" rows="8" cols="10" required="required"></textarea>
+                        <input class="button" type="submit" value="Enviar" />
+                    </form>
+                </section>
             </main>
             <footer class="footer">
                 <div class="section-wrapper">
