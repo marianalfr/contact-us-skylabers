@@ -8,42 +8,52 @@
    margin: 0;
    padding: 0;
    justify-content: center;
+   .label{
+    display: block;
+    color: #54585a;
+    padding: 10px 10px 10px 0;
+    .asterisk {
+        color: #14d9c4;
+    }
+    }
+    .completename, .phone{
+        height: 45px;
+        width: 290px;
+        border: inside 1px;
+    }
+    .email{
+        color: #54585a;
+        font-size: 16px;
+        height: 45px;
+        width: 290px;
+        border: inside 1px;
+    }
+    .message{
+        width: 290px;
+        border: inside 1px;
+        padding: 10px 10px 10px 0;
+    }
+    .button{
+        background-color: #099d8d;
+        height: 45px;
+        width: 290px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        display: block;
+        margin-top: 30px;
+    }
+    ::placeholder{
+        color: #b8b8b9;
+        padding-left:15px ;
+    }
 }
-.label{
-   display: block;
-   color: #54585a;
-}
-.email{
-   color: #54585a;
-   font-size: 16px;
-   height: 45px;
-   width: 290px;
-   border: inside 1px;
-}
-.nombreCompleto, .tel{
-   height: 45px;
-   width: 290px;
-   border: inside 1px;
-}
-.mensaje{
-   width: 290px;
-   border: inside 1px;
-}
-::placeholder{
-    color: #b8b8b9;
-    padding-left:15px ;
-}
-.required{
-    content:"*";
-    color: #14d9c4;
-}
-.button{
-   background-color: #099d8d;
-   height: 45px;
-   width: 290px;
-   border-radius: 4px;
-   text-transform: uppercase;
-   font-weight: bold;
-   color: white;
-   display: block;
-}
+
+
+
+
+
+
+
+
