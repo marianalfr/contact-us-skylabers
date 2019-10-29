@@ -118,7 +118,33 @@
 
 .hero .rectangle .claim:first-child {
   font-style: italic;
-}/* GOOGLE FONTS *//* T E A M * * * * * * * * * * * * * * * * * */.team {
+}/* GOOGLE FONTS */.form-hero {
+  width: 100%;
+  height: 421px;
+  background-image: url("../images/hero-contact.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-description h2 {
+  color: #099d8d;
+  text-transform: uppercase;
+  margin-top: 65px;
+}
+
+.contact-description p {
+  margin-bottom: 20px;
+  color: #54585a;
+}
+
+.contact-description p span {
+  color: #14d9c4;
+}/* T E A M * * * * * * * * * * * * * * * * * */.team {
   text-align: center;
 }
 
@@ -328,8 +354,11 @@ p {
     margin-bottom: 3%;
   }
 
+  .contact-description {
+    padding: 0px 45px 0px 45px;
+  }
+
   .team {
-    text-align: center;
     padding: 0px 45px 0px 45px;
   }
 
@@ -419,6 +448,11 @@ p {
   .hero .rectangle .claim {
     width: 514px;
     height: 60;
+  }
+
+  .contact-description {
+    padding: 0px;
+    margin: 0 auto;
   }
 
   .team {
