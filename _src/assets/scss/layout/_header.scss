@@ -1,7 +1,26 @@
 @keyframes logo-anim{
-    from{background-position-y: 0px;}
-    to{background-position-y: -400px;}
+    from{
+        background-position-y: 0px;
+    }
+
+    to{
+        background-position-y: -400px;
+    }
 }
+
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
 
 .header-container{
     opacity: 0.8;
@@ -77,6 +96,12 @@
     
         a{
             color: white;
+
+            &:hover{
+                animation-name: pulse;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+            }
         }
     }
 }
