@@ -1,3 +1,8 @@
+@keyframes logo-anim{
+    from{background-position-y: 0px;}
+    to{background-position-y: -400px;}
+}
+
 .header-container{
     opacity: 0.8;
 
@@ -22,19 +27,32 @@
         color: white;
 
         @include media($tablet){
-            height: auto;
             width: 40%;
             text-align: left;
             display: inline-block;
         }
 
-        img{
-            height: 40px;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
+        a{
+            display: block;
+            height: 100%;
+
+            .skylogo{
+                width: 180px;
+                height: 40px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background-image: url(../images/logo-skylabers-anim.svg);
+                animation: logo-anim 1s steps(10) infinite;
+
+                @include media($tablet){
+                    left: 0px;
+                    transform: translate(0,-50%);
+                }
+            }
+     
         }
- 
     }
 
     .nav-header{

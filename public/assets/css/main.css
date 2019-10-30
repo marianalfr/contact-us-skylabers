@@ -11,13 +11,23 @@
   color: white;
 }
 
-.header-container .group-name img {
+.header-container .group-name a {
+  display: block;
+  height: 100%;
+}
+
+.header-container .group-name a .skylogo {
+  width: 180px;
   height: 40px;
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-image: url(../images/logo-skylabers-anim.svg);
+  -webkit-animation: logo-anim 1s steps(10) infinite;
+  animation: logo-anim 1s steps(10) infinite;
 }
 
 .header-container .nav-header {
@@ -305,10 +315,16 @@ p {
   }
 
   .header-container .group-name {
-    height: auto;
     width: 40%;
     text-align: left;
     display: inline-block;
+  }
+
+  .header-container .group-name a .skylogo {
+    left: 0px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
   }
 
   .header-container .nav-header {
@@ -479,6 +495,26 @@ p {
     padding: 0;
     max-width: 900px;
     margin: 0 auto;
+  }
+}
+
+@-webkit-keyframes logo-anim {
+  from {
+    background-position-y: 0px;
+  }
+
+  to {
+    background-position-y: -400px;
+  }
+}
+
+@keyframes logo-anim {
+  from {
+    background-position-y: 0px;
+  }
+
+  to {
+    background-position-y: -400px;
   }
 }
 
