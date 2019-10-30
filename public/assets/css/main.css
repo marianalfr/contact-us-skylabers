@@ -67,6 +67,13 @@
   padding: 30px 15px 45px;
 }
 
+.footer .footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 45px 45px;
+  grid-template-areas: "copy copy" "logo logo" "menu menu";
+}
+
 .footer .footer__copyright {
   text-align: center;
   color: #b8b8b9;
@@ -345,17 +352,19 @@ p {
   }
 
   .footer .footer__copyright {
-    display: inline-block;
     text-align: left;
+    grid-area: copy;
   }
 
   .footer .footer__nav {
-    float: right;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 
   .footer .footer__nav .footer__list {
     text-align: right;
     margin: 0px;
+    grid-area: menu;
   }
 
   .footer .footer__nav .footer__list li {
@@ -364,6 +373,7 @@ p {
 
   .footer .footer__logo-container {
     text-align: left;
+    grid-area: logo;
   }
 
   .hero .rectangle {

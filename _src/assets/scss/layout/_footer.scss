@@ -2,8 +2,16 @@
     border-top: 1px solid $p-faded-color;
     padding: 30px 15px 45px;
 
+
     @include media($desktop){
         padding: 30px 135px 50px;
+    }
+
+    .footer__grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 45px 45px;
+        grid-template-areas: "copy copy" "logo logo" "menu menu";
     }
 
     .footer__copyright {
@@ -13,15 +21,16 @@
         font-size: 14px;
 
         @include media($tablet){
-            display:inline-block;
             text-align: left;
+            grid-area: copy;
         }
     }
 
     .footer__nav{
 
         @include media($tablet){
-            float:right;
+            grid-row-start: 1;
+            grid-row-end: 3;
         }
 
         .footer__list {
@@ -38,6 +47,7 @@
             @include media($tablet){
                 text-align: right;
                 margin: 0px;
+                grid-area:menu;
             }
 
             & li{
@@ -71,6 +81,7 @@
 
         @include media($tablet){
             text-align: left;
+            grid-area: logo;
         }
 
         .footer__logo {
