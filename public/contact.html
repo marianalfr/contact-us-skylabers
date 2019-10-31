@@ -48,29 +48,31 @@
                 </section>
                 <section id="form" class="wrapper-form">
                     <form action="https://formspree.io/xgewrpez" method="POST" target="_blank">
-                        <label class="label" for="completename">Nombre completo <span class="asterisk">*</span>
+                        <label class="label" for="completename">Nombre completo<span class="asterisk">*</span>
 
                         </label>
                         <input class="input input--name" type="text" id="completename" name="completename"
-                        placeholder="Nombre..." required="required" />
+                        placeholder="Nombre..." required="required" tabindex="1" />
                         <div class="container-email">
-                            <label class="label" for="emailAdress">Email <span class="asterisk">*</span>
+                            <label class="label" for="emailAdress">Email<span class="asterisk">*</span>
 
                             </label>
                             <input class="input input--email" type="email" id="emailAdress" name="email"
-                            placeholder="nombre.apellidos@mail.com" required="required" />
+                            placeholder="nombre.apellidos@mail.com" required="required" tabindex="2"
+                            />
                         </div>
                         <div class="container-phone">
                             <label class="label label--phone" for="phone">Teléfono</label>
                             <input class="input input--phone" type="tel" id="phone"
-                            name="phone" placeholder="Ej:123456789" />
+                            name="phone" placeholder="Ej:123456789" tabindex="3" />
                         </div>
-                        <label class="label" for="message">Mensaje <span class="asterisk">*</span>
+                        <label class="label" for="message">Mensaje<span class="asterisk">*</span>
 
                         </label>
                         <textarea placeholder="¿Qué necesitas?" class="message" id="message" name="message"
-                        rows="5" cols="30" required="required"></textarea>
-                        <input class="button" type="submit" value="Enviar" />
+                        rows="5" cols="30" required="required" tabindex="4"></textarea>
+                        <input class="button" type="submit" value="Enviar" tabindex="5"
+                        />
                     </form>
                 </section>
             </main>
