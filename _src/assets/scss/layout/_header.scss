@@ -25,6 +25,8 @@
 .header-container{
     opacity: 0.8;
     position: fixed;
+    z-index: 10;
+    width: 100vw;
 
     @include media($tablet){
         width: 100%;

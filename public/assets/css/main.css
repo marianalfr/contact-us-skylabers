@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:300,400&display=swap");/* MEDIA QUERIES *//* DEVICE WIDTH - media queries breakpoints *//* FONTS *//* COLORS */.header-container {
   opacity: 0.8;
   position: fixed;
+  z-index: 10;
+  width: 100vw;
 }
 
 .header-container .group-name {
@@ -102,6 +104,12 @@
 
 .footer .footer__nav .footer__list .footer__link:hover {
   color: #099d8d;
+  -webkit-animation-name: wink;
+  animation-name: wink;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .footer .footer__logo-container {
@@ -843,6 +851,46 @@ p {
   }
 
   to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes wink {
+  from {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes wink {
+  from {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
