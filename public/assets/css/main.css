@@ -151,25 +151,21 @@
 }
 
 .wrapper-form .input.input--email::-webkit-input-placeholder {
-  color: #54585a;
   padding-left: 15px;
   font-size: 16px;
 }
 
 .wrapper-form .input.input--email:-ms-input-placeholder {
-  color: #54585a;
   padding-left: 15px;
   font-size: 16px;
 }
 
 .wrapper-form .input.input--email::-ms-input-placeholder {
-  color: #54585a;
   padding-left: 15px;
   font-size: 16px;
 }
 
 .wrapper-form .input.input--email::placeholder {
-  color: #54585a;
   padding-left: 15px;
   font-size: 16px;
 }
@@ -261,8 +257,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 90%;
-  -webkit-animation-name: fade-in;
-  animation-name: fade-in;
+  -webkit-animation-name: fade-in-to1;
+  animation-name: fade-in-to1;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-delay: 1s;
@@ -521,25 +517,21 @@ p {
   }
 
   .wrapper-form .input.input--email::-webkit-input-placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
 
   .wrapper-form .input.input--email:-ms-input-placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
 
   .wrapper-form .input.input--email::-ms-input-placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
 
   .wrapper-form .input.input--email::placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
@@ -581,6 +573,8 @@ p {
     -webkit-transform: translate(-70%, -100%);
     -ms-transform: translate(-70%, -100%);
     transform: translate(-70%, -100%);
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
   }
 
   .hero .rectangle .claim {
@@ -712,25 +706,21 @@ p {
   }
 
   .wrapper-form .input.input--email::-webkit-input-placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
 
   .wrapper-form .input.input--email:-ms-input-placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
 
   .wrapper-form .input.input--email::-ms-input-placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
 
   .wrapper-form .input.input--email::placeholder {
-    color: #54585a;
     padding-left: 15px;
     font-size: 16px;
   }
@@ -768,6 +758,8 @@ p {
   .hero .rectangle {
     opacity: 0.8;
     margin-right: 488px;
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
   }
 
   .hero .rectangle .claim {
@@ -913,6 +905,26 @@ p {
 
   100% {
     opacity: 0.7;
+  }
+}
+
+@-webkit-keyframes fade-in-to1 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-to1 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 

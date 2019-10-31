@@ -34,7 +34,6 @@
         border: inside 1px;
         &.input--email{
             &::placeholder{
-                color: $p-font-color;
                 padding-left:15px;
                 font-size: 16px;
             }
@@ -45,7 +44,6 @@
             border: inside 1px;
             &.input--email{
                 &::placeholder{
-                    color: $p-font-color;
                     padding-left:15px;
                     font-size: 16px;
                 }
@@ -62,7 +60,6 @@
             &.input--email{
                 width: 395px;
                 &::placeholder{
-                    color: $p-font-color;
                     padding-left:15px;
                     font-size: 16px;
                 }
