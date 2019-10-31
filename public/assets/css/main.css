@@ -92,13 +92,6 @@ p {
   padding: 30px 15px 45px;
 }
 
-.footer .footer__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 45px 45px;
-  grid-template-areas: "copy copy" "logo logo" "menu menu";
-}
-
 .footer .footer__copyright {
   text-align: center;
   color: #b8b8b9;
@@ -491,6 +484,13 @@ p {
     padding: 0;
   }
 
+  .footer .footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 45px 45px;
+    grid-template-areas: "copy copy" "logo logo" "menu menu";
+  }
+
   .footer .footer__copyright {
     text-align: left;
     grid-area: copy;
@@ -674,7 +674,8 @@ p {
   }
 
   .footer {
-    padding: 30px 135px 50px;
+    padddisplay: grid;
+    grid-ting: 30px 135px 50px;
   }
 
   .wrapper-form .label.label--email {

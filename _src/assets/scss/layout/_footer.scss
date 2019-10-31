@@ -22,14 +22,19 @@
 
 
     @include media($desktop){
-        padding: 30px 135px 50px;
+        padddisplay:grid;
+        grid-ting: 30px 135px 50px;
     }
 
     .footer__grid {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 45px 45px;
-        grid-template-areas: "copy copy" "logo logo" "menu menu";
+
+        @include media($tablet) {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 45px 45px;
+            grid-template-areas: "copy copy" "logo logo" "menu menu";
+        }
+        
     }
 
     .footer__copyright {
