@@ -29,7 +29,7 @@
         color: $p-font-color;
 
         &:last-child{
-            font-size: 12px;
+            font-size: rem(12);
         }
 
         span{

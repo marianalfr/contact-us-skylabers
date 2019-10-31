@@ -35,7 +35,7 @@
         &.input--email{
             &::placeholder{
                 padding-left:15px;
-                font-size: 16px;
+                font-size: rem(16);
             }
         }
         @include media($tablet){
@@ -45,7 +45,7 @@
             &.input--email{
                 &::placeholder{
                     padding-left:15px;
-                    font-size: 16px;
+                    font-size: rem(16);
                 }
             }
         }
@@ -61,14 +61,14 @@
                 width: 395px;
                 &::placeholder{
                     padding-left:15px;
-                    font-size: 16px;
+                    font-size: rem(16);
                 }
             }
         }
     }
     .container-email{
         box-sizing: border-box;
-        font-size: 16px;
+        font-size: rem(16);
         border: inside 1px;
         @include media($tablet){
             height: 45px;

@@ -1,5 +1,7 @@
 @import 'core/mixins';
 @import 'core/variables';
+@import 'core/functions';
+@import 'layout/default';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'components/buttons';
@@ -8,38 +10,3 @@
 @import 'components/typography';
 @import 'pages/contact';
 @import 'pages/home';
-
-
-/* GENERAL * * * * * * * * * * * * * * * * */
-
-body{
-    font-family: $basic-font;
-}
-
-h1, h2, h3{
-    font-family: $title-font;
-}
-
-p{ 
-    font-family: $basic-font;
-    font-weight: 300;
-}
-
-.wrapper{
-    width: 100%;
-    margin: 0 auto;
-}
-
-.section-wrapper{
-    padding: 0 20px;
-
-    @include media($tablet){
-        padding: 0 45px;
-    }
-
-    @include media($desktop){
-        padding: 0;
-        max-width: 900px;
-        margin: 0 auto;
-    }
-}

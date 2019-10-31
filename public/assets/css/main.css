@@ -1,4 +1,26 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:300,400&display=swap");/* MEDIA QUERIES *//* DEVICE WIDTH - media queries breakpoints *//* FONTS *//* COLORS */.header-container {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:300,400&display=swap");/* MEDIA QUERIES *//* DEVICE WIDTH - media queries breakpoints *//* FONTS *//* COLORS *//* GENERAL * * * * * * * * * * * * * * * * */body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,h2,h3 {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-wrapper {
+  padding: 0 20px;
+}
+
+.header-container {
   opacity: 0.8;
   position: fixed;
   z-index: 10;
@@ -81,14 +103,14 @@
   text-align: center;
   color: #b8b8b9;
   margin: 0 0 20px 0;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .footer .footer__nav .footer__list {
   margin: 0 0 30px 0;
   text-align: center;
   padding: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #54585a;
   font-weight: 600;
   opacity: 0.75;
@@ -152,28 +174,28 @@
 
 .wrapper-form .input.input--email::-webkit-input-placeholder {
   padding-left: 15px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .wrapper-form .input.input--email:-ms-input-placeholder {
   padding-left: 15px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .wrapper-form .input.input--email::-ms-input-placeholder {
   padding-left: 15px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .wrapper-form .input.input--email::placeholder {
   padding-left: 15px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .wrapper-form .container-email {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   border: inside 1px;
 }
 
@@ -270,7 +292,7 @@
 }
 
 .hero .rectangle .claim {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.39;
   color: #000000;
@@ -303,7 +325,7 @@
 }
 
 .contact-description p:last-child {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .contact-description p span {
@@ -318,7 +340,7 @@
 }
 
 .team p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #54585a;
   line-height: 1.5;
   margin-bottom: 0px;
@@ -343,7 +365,7 @@
 
 .strengths-weaknesses .title-sw {
   font-family: "Rubik", sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #099d8d;
   text-align: center;
   margin-top: 30px;
@@ -355,7 +377,7 @@
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #54585a;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0px;
   line-height: 1.5;
 }/* A B O U T * * * * * * * * * * * * * * * * * */.about {
@@ -365,7 +387,7 @@
 
 .about .title-about {
   color: #099d8d;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
   text-align: center;
@@ -394,7 +416,7 @@
 
 .about .figure-center .name-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #000000;
   text-align: center;
   font-weight: 400;
@@ -402,7 +424,7 @@
 
 .about .figure-center .text-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -421,7 +443,7 @@
 .about .figure-center .social-media .fas,.about .figure-center .social-media .fab {
   display: inline;
  /*font-family: 'Font Awesome 5 Pro';*/
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #099d8d;
   text-align: center;
   margin: 0 4px;
@@ -429,29 +451,13 @@
 
 .about .figure-center .social-media .fas:hover,.about .figure-center .social-media .fab:hover {
   opacity: 0.7;
-}/* GENERAL * * * * * * * * * * * * * * * * */body {
-  font-family: "Open Sans", sans-serif;
-}
-
-h1,h2,h3 {
-  font-family: "Rubik", sans-serif;
-}
-
-p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-}
-
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.section-wrapper {
-  padding: 0 20px;
 }
 
 @media all and (min-width: 768px) {
+  .section-wrapper {
+    padding: 0 45px;
+  }
+
   .header-container {
     width: 100%;
     background-color: #099d8d;
@@ -518,22 +524,22 @@ p {
 
   .wrapper-form .input.input--email::-webkit-input-placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .input.input--email:-ms-input-placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .input.input--email::-ms-input-placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .input.input--email::placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .container-email {
@@ -648,10 +654,6 @@ p {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-
-  .section-wrapper {
-    padding: 0 45px;
-  }
 }
 
 @media all and (min-width: 768px) and (min-width: 768px) {
@@ -661,6 +663,12 @@ p {
 }
 
 @media all and (min-width: 1200px) {
+  .section-wrapper {
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
   .header-container {
     padding: 0 140px;
   }
@@ -707,22 +715,22 @@ p {
 
   .wrapper-form .input.input--email::-webkit-input-placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .input.input--email:-ms-input-placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .input.input--email::-ms-input-placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .input.input--email::placeholder {
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .wrapper-form .container-email {
@@ -785,12 +793,6 @@ p {
 
   .about .figure-center .social-media {
     margin: 10px 10px 30px 10px;
-  }
-
-  .section-wrapper {
-    padding: 0;
-    max-width: 900px;
-    margin: 0 auto;
   }
 }
 
