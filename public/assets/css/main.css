@@ -122,7 +122,7 @@
   justify-content: center;
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 50px 0 0 0;
 }
 
 .wrapper-form .label {
@@ -194,6 +194,16 @@
   color: white;
   display: block;
   margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: background-color ease 1s;
+  -o-transition: background-color ease 1s;
+  transition: background-color ease 1s;
+}
+
+.wrapper-form .button:hover {
+  cursor: pointer;
+  background-color: #14d9c4;
+  border: none;
 }
 
 .wrapper-form ::-webkit-input-placeholder {
@@ -255,7 +265,7 @@
   font-style: italic;
 }/* GOOGLE FONTS */.form-hero {
   width: 100%;
-  height: 421px;
+  height: 481px;
   background-image: url("../images/hero-contact.jpg");
   background-size: cover;
   background-position: center;
@@ -263,7 +273,6 @@
 
 .contact-description {
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .contact-description h2 {
@@ -275,6 +284,10 @@
 .contact-description p {
   margin-bottom: 20px;
   color: #54585a;
+}
+
+.contact-description p:last-child {
+  font-size: 12px;
 }
 
 .contact-description p span {
