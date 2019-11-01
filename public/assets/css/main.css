@@ -330,6 +330,7 @@ p {
 .team h2 {
   color: #099d8d;
   text-transform: uppercase;
+  margin-top: 60px;
 }
 
 .team p {
@@ -386,6 +387,7 @@ p {
   text-align: center;
   position: relative;
   text-transform: uppercase;
+  margin-top: 80px;
 }
 
 .about .figure-center {

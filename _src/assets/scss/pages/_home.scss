@@ -16,6 +16,7 @@
     h2{
         color: $main-color;
         text-transform: uppercase;
+        margin-top: 60px;
     }
 
     p{
@@ -39,6 +40,8 @@
         transform: translate(-50%,15px) rotate(45deg);
     }
 }
+
+
 
 /* S T R E N G T H S / W E A K N E S S E S * * * * * * * * * * * * * * * * * */
 
@@ -100,6 +103,7 @@
         text-align: center;
         position: relative;
         text-transform: uppercase;
+        margin-top: 80px;
     }
 
     /*---Global container---*/
