@@ -43,7 +43,7 @@ If you want to play around with our project, please visit [our Github repository
 
 ### Team
 
-We are a team of five women from very different backgrounds that came together through Adalab Bootcamp in Madrid and this is our first project. We are [Marta Cruces](https://github.com/Marta-Cruces), [Laura Carril](https://github.com/carpanla), [Mariana Lerma](https://github.com/marianalfr), [Lucía Herrador](https://github.com/luciaherrrador), y [Ana Sánchez](https://github.com/ana-sanchez)
+We are a team of five women from very different backgrounds that came together through Adalab Bootcamp in Madrid and this is our first project. We are [Marta Cruces](https://github.com/Marta-Cruces), [Laura Carril](https://github.com/carpanla), [Mariana Lerma](https://github.com/marianalfr), [Lucía Herrador](https://github.com/luciaherrrador), and [Ana Sánchez](https://github.com/ana-sanchez)
 
 ### MIT License.
 
