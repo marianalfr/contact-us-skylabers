@@ -1,11 +1,10 @@
 # Skylabers.
 #### *Contact us!*
 
-![SL-home](SL-home.png)
-
-This is the first site we created at Adalab. It is a very simple site with info about us and a contact form.
+This is our first project at Adalab. It is a very simple site with info about us and a contact form.
 If you want to know more about us and about what we do please visit [our team's website](http://beta.adalab.es/contact-us-skylabers/).
 
+![SL-home](SL-home.png)
 ![SL-about](SL-about.png)
 ![SL-contact](SL-contact.png)
 
