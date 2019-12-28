@@ -15,7 +15,7 @@ If you want to know more about us and about what we do please visit [our team's 
 ### Getting started
 
 If you want to play around with our project, please visit [our Github repository](https://github.com/Adalab/contact-us-skylabers) to clone or download it.
-* To clone it: copy this [link](https://github.com/Adalab/contact-us-skylabers.git) and go to your terminal. Once in the terminal, navigate to the directory where you want to install it and use the command:
+* To clone it: copy this [link](https://github.com/Adalab/contact-us-skylabers.git) and go to your terminal. Once on the terminal, navigate to the directory where you want to install it and use the command:
 
 ```$ git clone https://github.com/Adalab/contact-us-skylabers.git```
 
